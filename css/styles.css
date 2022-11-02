@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  background-color: rgba(96, 96, 96, 0.5);
+  margin-bottom: 3%;
+}
+.title h1 {
+  font-size: 50px;
+}
+
+.container-outside {
+  width: 220px;
+  height: auto;
+  margin: 2%;
+}
+.container-outside .one {
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 150%;
+  background-color: lightblue;
+  padding-bottom: 15px;
+}
+.container-outside .description {
+  font-size: 15px;
+  line-height: normal;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
